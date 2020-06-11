@@ -1,5 +1,8 @@
 
 <style>
+    :root {
+        --dist-from-top: 23px;
+    }
     .image-container {
         display: flex;
         justify-content: center;
@@ -27,7 +30,7 @@
     }
 
     .about-text-container {
-        margin-top: 23px;
+        margin-top: var(--dist-from-top);
         margin-left: 17px;
     }
 
@@ -35,9 +38,16 @@
         margin-left: 69.5px;
         margin-top: -15px;
     }
+
+    .gmail-text-container {
+        text-align: right;
+        margin-top: -14px;
+        margin-right: 224px;
+    }
 </style>
 <div class ="upper-text-container about-text-container">About</div>
 <div class="upper-text-container store-text-container">Store</div> 
+<div class="upper-text-container gmail-text-container">Gmail</div>
 <div class="image-container">
 <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google" width="272" height="92">
 </div>
