@@ -5,7 +5,9 @@
         --grey-button-colour: #f2f2f2;
         --grey-button-height: 36px;
         --grey-button-border-radius: 5px;
-    
+        --grey-button-font: Arial, sans-serif;
+        --grey-button-font-size: 14px;
+        --grey-button-font-colour: #5f6368;
     }
     
     .signin-text-container {
@@ -13,9 +15,9 @@
         font-weight: bold;
         font-size: 13px;
         color: white;
-        margin-top: -293px;
-        margin-left: 1825.5px;
-        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         z-index: 1;
     }
     .signin-button-container {
@@ -101,14 +103,15 @@
         height: var(--grey-button-height);
         width: 142.5px;
     }
-    .search-text-container {
-        font-family: Arial, sans-serif;
-        font-size: 14px;
+    .grey-button-text-container {
+        font-family: var(--grey-button-font);
+        font-size: var(--grey-button-font-size);
+        color: var(--grey-button-font-colour);
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .feeling-lucky-text-container {
-
-    }
     
 </style>
 <div class ="upper-text-container about-text-container">About</div>
@@ -121,8 +124,7 @@
 <div class="logo-container">
 <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google" width="272" height="92">
 </div>
-<div class="signin-button-container"> </div>
-<div class="signin-text-container">Sign in</div>
+<div class="signin-button-container signin-text-container">Sign in</div>
 <div class="bar-container grey-border"></div>
-<div class="search-button-container search-text-container">Google Search</div>
-<div class="feeling-lucky-button-container">I'm Feeling Lucky</div>
+<div class="search-button-container grey-button-text-container">Google Search</div>
+<div class="feeling-lucky-button-container grey-button-text-container">I'm Feeling Lucky</div>
