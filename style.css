@@ -94,14 +94,15 @@ body {
     height: var(--grey-button-height);
     width: 127px;
     margin-top: 29px;
-    margin-left: 805px;
+    margin-left: 813px;
+    
 }
 
 .feeling-lucky-button-container {
     background-color: var(--grey-button-colour);
     border-color: var(--grey-button-colour);
     border-radius: var(--grey-button-border-radius);
-    margin-left: 944px;
+    margin-left: 952px;
     margin-top: -36px;
     height: var(--grey-button-height);
     width: 142.5px;
@@ -135,7 +136,7 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-top: 30px;
+    margin-top: 31px;
 }
 
 .language-name {
