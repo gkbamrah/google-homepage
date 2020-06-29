@@ -8,6 +8,11 @@
     --grey-button-font-colour: #5f6368;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .signin-text-container {
     font-family: var(--default-font);
     font-weight: bold;
@@ -24,7 +29,7 @@
     height: 30px;
     width: 69px;
     margin-top: -23px;
-    margin-left: 1813px;
+    margin-left: 1821px;
     z-index: -1;
 }
 .logo-container {
@@ -55,30 +60,30 @@
 
 .about-text-container {
     margin-top: var(--dist-from-top);
-    margin-left: 17px;
+    margin-left: 25px;
 }
 
 .store-text-container {
-    margin-left: 69.5px;
+    margin-left: 77.5px;
     margin-top: -15px;
 }
 
 .gmail-text-container {
     text-align: right;
     margin-top: -14px;
-    margin-right: 209px;
+    margin-right: 217px;
 }
 
 .images-text-container {
     text-align: right;
     margin-top: -15px;
-    margin-right: 151.5px;
+    margin-right: 159px;
 }
 
 .waffle-container {
     position: absolute;        
     clip: rect(35px, 190px, 300px,130px);
-    margin-left: 1636px;
+    margin-left: 1644px;
     margin-top: -61px;
 }
 
@@ -111,9 +116,9 @@
 }
 
 .bottom-grey-bar-container {
-    box-sizing: border-box;
-    width: 99vw;
-    padding-left: 30px;
+  
+    display: block;
+
     border-bottom: var(--grey-button-font-colour);
     border-style: solid;
     height: 41px;
