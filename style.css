@@ -116,15 +116,23 @@ body {
     align-items: center;
 }
 
-.bottom-grey-bar-container {
-  
-    display: block;
-
-    border-bottom: var(--grey-button-font-colour);
+.bottom-bars-border {
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-top: lightgray;
     border-style: solid;
+    border-width: 1px;
+}
+
+.bottom-grey-bar-container {
+    width: 100vw;
+    
     height: 41px;
     background-color: var(--grey-button-colour);
     overflow: hidden;
+    position: fixed;
+    bottom: 0;
     
 }
 
