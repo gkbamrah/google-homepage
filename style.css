@@ -126,15 +126,36 @@ body {
     border-width: 1px;
 }
 
+.second-bottom-bar-border {
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: lightgray;
+    border-top: lightgray;
+    border-style: solid;
+    border-width: 1px;
+}
+
 .bottom-grey-bar-container {
     width: 100vw;
     
-    height: 41px;
+    height: 40px;
     background-color: var(--grey-button-colour);
     overflow: hidden;
     position: fixed;
     bottom: 0;
+    z-index: 1;
     
+}
+
+.second-bottom-grey-bar-container {
+    width: 100vw;
+    margin-top: -41px;
+    height: 37px;
+    background-color: var(--grey-button-colour);
+    overflow: hidden;
+    position: fixed;
+    bottom: 42;
+    z-index: 1;
 }
 
 .language-text-container {
@@ -201,4 +222,12 @@ body {
     margin-left: 1838px;
     margin-top: var(--dist-from-top-of-bar);
     
+}
+
+#canada {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+
 }
